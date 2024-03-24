@@ -7,7 +7,7 @@ const UserDetails = () => {
   const { name, email, phone, username, website, company, address } =
     userDetails;
   return (
-    <div className="border-2 rounded-lg p-6 border-yellow-300">
+    <div className="border-2 rounded-lg p-6 border-yellow-300 mt-4">
       <h3 className="text-2xl font-bold text-center">{name}</h3>
       <div className="font-bold text-center">Email: {email}</div>
       <div className="font-bold text-center">Username: {username}</div>
